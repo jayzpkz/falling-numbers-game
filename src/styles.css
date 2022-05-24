@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#gameScreen {
+  border: 1px solid black;
+}
+
+.gameScreen {
+  width: 800px;
+  height: 600px;
+}
+
+img {
+  display: none;
+}
