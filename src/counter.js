@@ -1,3 +1,4 @@
+// Counter object to show the next number the player must catch
 export default class Counter {
   constructor(game) {
     this.game = game;
