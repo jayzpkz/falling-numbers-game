@@ -1,5 +1,5 @@
+// Detects collision between fallingNumber object and other game objects (bucket for example)
 export const detectCollision = (fallingNumber, gameObject) => {
-  // check collision with bucket
   const topOfFallingNumber = fallingNumber.position.y;
   const bottomOfFallingNumber = fallingNumber.position.y + fallingNumber.height;
 
