@@ -20,12 +20,9 @@ export default class FallingNumber {
     this.markedForDeletion = false;
   }
 
+  // Generates random numbers from "min" to "max"
   randomNumber(min, max) {
     this.currentNumber = Math.floor(Math.random() * (max - min + 1) + min);
-  }
-
-  reset() {
-    this.position = this.initialPosition;
   }
 
   draw(ctx) {
