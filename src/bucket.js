@@ -15,18 +15,22 @@ export default class Bucket {
     };
   }
 
+  // Updates bucket position by getting the mouse / finger touch horizontal position
   setMousePositionX(x) {
     this.position.x = x / 2;
   }
 
+  // Keyboard left movement
   moveLeft() {
     this.speed = -this.maxSpeed;
   }
 
+  // Keyboard right movement
   moveRight() {
     this.speed = this.maxSpeed;
   }
 
+  // Stops bucket movement
   stop() {
     this.speed = 0;
   }
